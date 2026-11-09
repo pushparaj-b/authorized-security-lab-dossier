@@ -1,0 +1,3 @@
+Asset ID,Asset,Owner,Environment,IP / URL,Testing,Attack Surface,Potential Risk,Data Classification,Excluded Actions,Approved Testing Window
+LAB-01,Training Web App,RabTech Lab,Localhost,127.0.0.1:8080,Allowed,"HTTP endpoints, login forms, input fields","SQL injection, XSS, authentication weaknesses",Confidential Training Data,No DoS or third-party scanning,Student-defined approved window
+LAB-02,Vulnerable VM,RabTech Lab,Host-only,192.168.56.20,Allowed,"Network services, open ports, OS services","Misconfiguration, weak authentication, outdated services",Confidential Training Data,No persistence or outbound traffic,Student-defined approved window
